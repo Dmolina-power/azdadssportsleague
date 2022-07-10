@@ -11,9 +11,12 @@ import Soccer from "./pages/Soccer";
 import Flagfootball from "./pages/Flagfootball";
 import Registration from "./pages/Registration";
 import Contact from "./pages/Contact";
+import DashboardContent from "./pages/AdminDashboard";
 
 function App() {
-  return (
+ 
+   
+  return ( 
     
     <div className="App">
       <Navigation/>
@@ -23,12 +26,15 @@ function App() {
         <Route path="baseball" element={<Baseball />} />
         <Route path="basketball" element={<Basketball />} />
         <Route path="soccer" element={<Soccer />} />
+        
         <Route path="football" element={<Flagfootball />} />
         <Route path="registration" element={<Registration />} />
         <Route path="contact" element={<Contact />} />
+        <Route path="dashboard" element={<DashboardContent />} />
 </Routes>
 
     </div>
+    
   );
 }
 

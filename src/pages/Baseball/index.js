@@ -1,11 +1,11 @@
 import React from "react";
-import Tabs from "../../Components/Breadcrumbs";
+import Tabs from "./components/Breadcrumbs";
 import Container from "@mui/material/Container";
-import Hero from "../../Components/Hero";
-import ProductValues from "../../Components/Section";
-import Gallery from "../../Components/Gallery";
-import HowItWorks from "../../Components/HowItWorks";
-import Questions from "../../Components/Questions";
+import Hero from "./components/Hero";
+import ProductValues from "./components/Section";
+import Gallery from "./components/Gallery";
+import HowItWorks from "./components/HowItWorks";
+import Questions from "./components/Questions";
 import Footer from "../../Components/Footer";
 
 const baseball = (props) => {

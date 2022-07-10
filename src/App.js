@@ -27,6 +27,7 @@ function App() {
         <Route path="registration" element={<Registration />} />
         <Route path="contact" element={<Contact />} />
 </Routes>
+
     </div>
   );
 }

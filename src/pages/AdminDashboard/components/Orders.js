@@ -62,7 +62,7 @@ function preventDefault(event) {
 export default function Orders() {
   return (
     <React.Fragment>
-      <Title>Recent Orders</Title>
+      <Title>Recent Registrations</Title>
       <Table size="small">
         <TableHead>
           <TableRow>
@@ -86,7 +86,7 @@ export default function Orders() {
         </TableBody>
       </Table>
       <Link color="primary" href="#" onClick={preventDefault} sx={{ mt: 3 }}>
-        See more orders
+        See more Registrations
       </Link>
     </React.Fragment>
   );
